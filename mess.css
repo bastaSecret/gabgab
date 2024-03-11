@@ -1,0 +1,41 @@
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(187, 155, 144);
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.send-button:hover {
+    background-color: #7d5b19;
+}

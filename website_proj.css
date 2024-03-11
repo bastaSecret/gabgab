@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.info {
+    border-collapse: collapse;
+    width: 20%;
+    margin-left: 30px;
+    font-size: 18px;
+    
+}
+
+.side-picture {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size:23px;
+    font-weight: 5px;
+    background-color:rgb(187, 155, 144);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sentence{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-indent:25px;
+    font-size: 18px;
+}
+
+.opening {
+    max-width: 1250px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 23px;
+    text-indent:25px;
+    padding: 10px;
+}
+
+.opening-picture {
+    height: 500px;
+    width: 1000px;
+}
+
+button {
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(222, 212, 214);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.socmed {
+    border-collapse: collapse;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(187, 155, 144);
+}
+
+video {
+    font-size: 18px;
+    width: 1000px;
+    height: 400px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    font-size:23px;
+    font-weight: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.video {
+    text-align: center;
+    background-color: rgb(216, 192, 192);
+    padding: 20px;
+}
+
+.image-side {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+}
+
+.image-long {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    padding: 5px;
+}
+
+.description {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+.dom b {
+    left: 50%;
+    margin-top: 30rem;
+
+}

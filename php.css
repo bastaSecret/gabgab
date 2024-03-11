@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(187, 155, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+  
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(204, 148, 79); /* Adjust the alpha value for transparency */
+    border-radius: 8px;
+    border: 2px solid rgb(245, 245, 245);
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(255, 254, 252);
+}
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.btn-success {
+    margin-top: 1rem;
+}
+
+.col-sm-6 {
+    margin-left: 20rem;
+}
+
+.dom {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type="text"],
+input[type="password"],
+select {
+    background-color: rgba(183, 136, 61, 0.989); /* Adjust the alpha value for transparency */
+    border: 1px solid #000000; /* Add a border for clarity */
+    border-radius: 4px; /* Optionally, add border-radius for rounded corners */
+    padding: 8px 12px; /* Adjust padding for better appearance */
+    margin-bottom: 10px; /* Add some space between input fields */
+    width: 100%; /* Optionally, set the width to 100% */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.dom p {
+    color: rgb(252, 252, 252);
+}
+    
+.btn {
+    padding: 12px 24px;
+    background-color: #f2f2f2;
+    color: hsl(0, 0%, 3%);
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 10px;
+    
+}
+
+.btn.btn-success:hover {
+    background-color: rgb(195, 137, 70) !important; /* Red color on hover */
+    color: #000000 !important; /* White text color on hover */
+}
+
+.message-container {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
+.form a {
+    color: rgb(80, 54, 1);
+}
